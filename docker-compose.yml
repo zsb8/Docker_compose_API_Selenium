@@ -9,9 +9,6 @@ services:
          ipv4_address: 192.168.1.200
     volumes:
       - '/home/cert/:/home/'
-#    depends_on:
-#      - selenium
-#    command: ["/usr/src/app/wait_for_selenium.sh", "selenium", "4444"]
   selenium:
     image: "selenium/standalone-firefox"
     ports:
