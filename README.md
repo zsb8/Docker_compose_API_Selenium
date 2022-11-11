@@ -36,3 +36,8 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
             options=webdriver.FirefoxOptions()
         )
 ~~~
+
+
+# Use this API
+![image](https://user-images.githubusercontent.com/75282285/201432969-a170bde7-6686-4516-a6e2-efb290900954.png)
+****
