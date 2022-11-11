@@ -39,5 +39,14 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
 
 
 # Use this API
+Input the JSON format message and POST it. For example: 
+~~~
+{
+    "expiry_date":"2023-12-25",
+    "birthday":"2011-01-01",
+    "effective_date":"2023-10-20"
+}
+~~~
+
 ![image](https://user-images.githubusercontent.com/75282285/201432969-a170bde7-6686-4516-a6e2-efb290900954.png)
 ****
