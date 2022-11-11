@@ -29,8 +29,8 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
 ~~~
 
 ## Netwrok
-![container-registry](images/198884576-b405f95a-95b7-4f73-8497-7176d8366b13.png)
-![image](https://user-images.githubusercontent.com/75282285/201433414-38fd095f-0b56-4359-8302-8254c8e773ee.png)
+![container-registry](images/201433414-38fd095f-0b56-4359-8302-8254c8e773ee.png)
+
 
 ## Docker 
 ![image](https://user-images.githubusercontent.com/75282285/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
