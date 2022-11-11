@@ -26,3 +26,13 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
     volumes:
       - '/home/cert/:/home/'
 ~~~
+
+# Connet with Selenium container
+~~~
+        with open("/home/config.txt", "r") as f:
+            credentials = f.readline().split(" ")
+        driver = webdriver.Remote(
+            command_executor="http://192.168.1.100:4444/wd/hub",
+            options=webdriver.FirefoxOptions()
+        )
+~~~
