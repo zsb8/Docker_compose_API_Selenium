@@ -33,7 +33,7 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
 
 
 ## Docker 
-![image](https://user-images.githubusercontent.com/75282285/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
+![container-registry](images/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
 
 
 # Connet with Selenium container
@@ -56,6 +56,5 @@ Input the JSON format message and POST it. For example:
     "effective_date":"2023-10-20"
 }
 ~~~
-
-![image](https://user-images.githubusercontent.com/75282285/201432969-a170bde7-6686-4516-a6e2-efb290900954.png)
+![container-registry](images/201432969-a170bde7-6686-4516-a6e2-efb290900954.png)
 ****
