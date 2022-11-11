@@ -3,6 +3,7 @@ Create an API for providing insurance price.
 Technical environment: Docker compose, FastAPI, Selenium
 
 # docker compose file
+## Code
 Define the network as 192.168.1.x
 ~~~
 networks:
@@ -26,6 +27,10 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
     volumes:
       - '/home/cert/:/home/'
 ~~~
+
+## Netwrok
+![image](https://user-images.githubusercontent.com/75282285/201433414-38fd095f-0b56-4359-8302-8254c8e773ee.png)
+
 
 # Connet with Selenium container
 ~~~
