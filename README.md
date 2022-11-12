@@ -32,6 +32,15 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
 ![container-registry](images/201433414-38fd095f-0b56-4359-8302-8254c8e773ee.png)
 
 
+# How to run it?
+# Clear my environment
+Run the command `docker rm -f    $(docker ps -aq)`
+![image](https://user-images.githubusercontent.com/75282285/201497344-87fd584e-06ab-4376-94e8-4ec6c27b6e9c.png)
+
+Run the command `docker  system prune`
+![image](https://user-images.githubusercontent.com/75282285/201497373-1cbf0d58-a496-4afc-9d26-a85e171db45b.png)
+
+
 ## Docker 
 ![container-registry](images/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
 
