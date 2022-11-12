@@ -1,25 +1,31 @@
 version: '3'
 services:
+
   insurance_api:
     build: .
     ports:
        - "8000:8000"
     networks:
        api_network:
-         ipv4_address: 192.168.1.200
+         ipv4_address: 192.168.88.200
     volumes:
       - '/home/cert/:/home/'
+    depends_on:
+      - "selenium"
+    command: ["/usr/src/app/wait_for_selenium.sh", "192.168.88.100", "4444"]
+
   selenium:
     image: "selenium/standalone-firefox"
     ports:
       - "4444:4444"
     networks:
        api_network:
-         ipv4_address: 192.168.1.100
+         ipv4_address: 192.168.88.100
+
 networks:
   api_network:
     driver: bridge
     ipam:
       config:
-        - subnet: 192.168.1.0/24
-          gateway: 192.168.1.1
+        - subnet: 192.168.88.0/24
+          gateway: 192.168.88.1

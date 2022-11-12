@@ -6,11 +6,9 @@ import json
 
 def main(expiry_date, birthday, effective_date):
         with open("/home/config.txt", "r") as f:
-        # with open("d:/config.txt", "r") as f:
             credentials = f.readline().split(" ")
         driver = webdriver.Remote(
-            command_executor="http://192.168.1.100:4444/wd/hub",
-            # command_executor="http://192.168.50.101:4444/wd/hub",
+            command_executor="http://192.168.88.100:4444/wd/hub",
             options=webdriver.FirefoxOptions()
         )
         print("connected")

@@ -6,7 +6,9 @@ RUN apt-get update
 RUN apt install net-tools
 RUN apt-get update
 RUN apt install iputils-ping -y
+RUN apt install netcat -y
+RUN apt install vim -y
 COPY . .
-CMD [ "uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", "8000" ]
+#CMD [ "uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", "8000" ]
 
 
