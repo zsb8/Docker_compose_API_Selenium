@@ -33,7 +33,7 @@ Map the local folder `/home/cert/` to the contain folder `/home/`.
 
 
 # How to run it?
-# Clear my environment
+## Clear my environment
 Run the command `docker rm -f    $(docker ps -aq)` to delete all the containers in my host.
 ![image](https://user-images.githubusercontent.com/75282285/201497344-87fd584e-06ab-4376-94e8-4ec6c27b6e9c.png)
 
