@@ -44,11 +44,11 @@ Run the command `docker image rm XXX` to delete the image.
 ![container-registry](images/201497418-d459dfa0-38dc-4c26-b013-4345e0221d05.png)
 
 Run the command `docker compose up` or `docker compose up -d` the start the two containers named selenium and insurance_api.
-![image](https://user-images.githubusercontent.com/75282285/201497868-0c3ac953-3d07-48f0-a793-cf7a814deb4b.png)
+![container-registry](images/75282285/201497868-0c3ac953-3d07-48f0-a793-cf7a814deb4b.png)
 You will find the container named insurance_api only start after the container named selenium.
-![image](https://user-images.githubusercontent.com/75282285/201497881-306b77c7-e2c0-49cf-8e5b-33a6a15c2430.png)
+![container-registry](images/201497881-306b77c7-e2c0-49cf-8e5b-33a6a15c2430.png)
 Becuase we set the insurance_api container depends with the selenium container service in the docker-compose.yaml file.
-![image](https://user-images.githubusercontent.com/75282285/201497956-55f9a481-dc98-4ca1-ab94-3f1fc6d88d42.png)
+![container-registry](images/201497956-55f9a481-dc98-4ca1-ab94-3f1fc6d88d42.png)
 
 
 
