@@ -38,10 +38,10 @@ Run the command `docker rm -f    $(docker ps -aq)` to delete all the containers 
 ![image](https://user-images.githubusercontent.com/75282285/201497344-87fd584e-06ab-4376-94e8-4ec6c27b6e9c.png)
 
 Run the command `docker  system prune`
-![image](https://user-images.githubusercontent.com/75282285/201497373-1cbf0d58-a496-4afc-9d26-a85e171db45b.png)
+![container-registry](images/201497373-1cbf0d58-a496-4afc-9d26-a85e171db45b.png)
 
-Run the command `docker image rm XXX` to delete the image 
-![image](https://user-images.githubusercontent.com/75282285/201497418-d459dfa0-38dc-4c26-b013-4345e0221d05.png)
+Run the command `docker image rm XXX` to delete the image.
+![container-registry](images/201497418-d459dfa0-38dc-4c26-b013-4345e0221d05.png)
 
 ## Docker 
 ![container-registry](images/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
