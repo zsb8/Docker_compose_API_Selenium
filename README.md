@@ -43,6 +43,12 @@ Run the command `docker  system prune`
 Run the command `docker image rm XXX` to delete the image.
 ![container-registry](images/201497418-d459dfa0-38dc-4c26-b013-4345e0221d05.png)
 
+Run the command `docker compose up` the start the two containers named selenium and insurance_api.
+![image](https://user-images.githubusercontent.com/75282285/201497868-0c3ac953-3d07-48f0-a793-cf7a814deb4b.png)
+![image](https://user-images.githubusercontent.com/75282285/201497881-306b77c7-e2c0-49cf-8e5b-33a6a15c2430.png)
+
+
+
 ## Docker 
 ![container-registry](images/201433827-6622eff1-132a-47e3-a60e-78740ad5efeb.png)
 
