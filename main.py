@@ -12,7 +12,7 @@ class Item(BaseModel):
     effective_date: str
 
 
-@app.post("/v1/jf/canadian_abroad")
+@app.post("/get_price")
 async def update_item(item: Item):
     expiry_date = item.expiry_date
     birthday = item.birthday
