@@ -44,7 +44,7 @@ Run the command `docker image rm XXX` to delete the image.
 ![container-registry](images/201497418-d459dfa0-38dc-4c26-b013-4345e0221d05.png)
 
 You don't need to do the command as above. You can only run this command 'docker compose down --rmi all -v --remove-orphans' to clean your images and containers created by your docker-compose.yaml.
-![image](https://user-images.githubusercontent.com/75282285/201501392-8668c50e-5ef3-46d8-a680-9ca1f84afbbc.png)
+![container-registry](images/75282285/201501392-8668c50e-5ef3-46d8-a680-9ca1f84afbbc.png)
 
 
 Run the command `docker compose up` or `docker compose up -d` the start the two containers named selenium and insurance_api.
