@@ -1,8 +1,8 @@
-**To reassure you, these codes are just similar to the projects I have done before, not the same one. I just want to show my experience and easy to summarize, it do not contain any Privacy and Confidential Information.**     
-
 # Docker_compose_API
 Create an API for providing insurance price. 
 Technical environment: Docker compose, FastAPI, Selenium
+
+**To reassure you, these codes are just similar to the projects I have done before, not the same one. I just want to show my experience and easy to summarize, it do not contain any Privacy and Confidential Information.**   
 
 # Docker compose file
 ## Code
